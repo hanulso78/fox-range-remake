@@ -1,0 +1,30 @@
+<!-- 
+	적 출현 매핑 파일
+
+		TIME					: 적 출현 시간 (ms)
+			KIND				: 적 종류 (현재 네 종류만 가능)
+			LOCATION(%)	: 적 출현 y좌표 (%단위) 320x200의 해상도에서는 200의 50%는 100px
+			ENERGY				: 에너지
+			SPEED				: 적의 이동 속도 (픽셀 단위)
+			FIRING_CYCLE		: 무기 재 발사시간 (ms)
+			ITEM				: 폭스 레인저의 파워를 증가시킬 적이 갖고 있는 아이템 
+									MISSILE, BALKAN, LASER, G-MISSILE, BOMB
+			MOVE				: 이동 방법
+
+		...
+			...
+			...
+-->
+<ENEMY>
+	<3000>
+		<NAME>BOSS</NAME>
+		<LOCATION>50</LOCATION>
+		<ENERGY>1000</ENERGY>
+		<SPEED>1</SPEED>
+		<FIRING_CYCLE></FIRING_CYCLE>
+		<ANGRY>70 50 30 10</ANGRY>
+		<FIRE>50 45 40 35 30 25 20 15 5</FIRE>
+		<ITEM></ITEM>
+		<MOVE></MOVE>
+	</3000>
+</ENEMY>

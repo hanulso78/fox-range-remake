@@ -1,0 +1,11 @@
+--- allegro-4.2.2/src/i386/icpus.s.ark	2008-10-04 17:09:26.714324787 +0200
++++ allegro-4.2.2/src/i386/icpus.s	2008-10-04 17:09:43.617810716 +0200
+@@ -67,7 +67,7 @@ FUNC(_i_is_fpu)
+ 
+    fninit
+    movl $0x5A5A, %eax
+-   fnstsw %eax
++   fnstsw %ax
+    cmpl $0, %eax
+    jne is_fpu_not_found
+ 
