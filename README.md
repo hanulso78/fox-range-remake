@@ -8,6 +8,10 @@ Requirement
 * Allegro 4.2.2
 * DosBox (For development and testing purposes.)
 
+License
+-
+This program is licensed under the LGPL.
+
 Screenshot
 -
 <img width="640" height="400" alt="image" src="https://github.com/user-attachments/assets/0be02047-387c-4e1a-ad8e-c5f26e3af9fa" />
